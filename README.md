@@ -32,6 +32,14 @@ extension of NSRunLoop for waiting.
 
 Add files under `NSRunLoopPerformBlock/` to your Xcode project.
 
+### CocoaPods
+
+If you use CocoaPods, you can install NSRunLoop-PerformBlock by inserting config below.
+
+```
+pod 'NSRunLoop-PerformBlock', :git => 'git@github.com:ishkawa/NSRunLoop-PerformBlock.git'
+```
+
 ## License
 
 Copyright (c) 2013 Yosuke Ishikawa
