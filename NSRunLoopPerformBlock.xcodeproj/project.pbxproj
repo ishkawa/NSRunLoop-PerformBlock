@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7F218811183E206300A3B1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F218810183E206300A3B1FB /* Foundation.framework */; };
-		7F218816183E206300A3B1FB /* NSRunLoopPerformBlock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F218815183E206300A3B1FB /* NSRunLoopPerformBlock.h */; };
-		7F218818183E206300A3B1FB /* NSRunLoopPerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F218817183E206300A3B1FB /* NSRunLoopPerformBlock.m */; };
 		7F21881F183E206300A3B1FB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F21881E183E206300A3B1FB /* XCTest.framework */; };
 		7F218820183E206300A3B1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F218810183E206300A3B1FB /* Foundation.framework */; };
 		7F218822183E206300A3B1FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F218821183E206300A3B1FB /* UIKit.framework */; };
 		7F218825183E206300A3B1FB /* libNSRunLoopPerformBlock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F21880D183E206300A3B1FB /* libNSRunLoopPerformBlock.a */; };
 		7F21882B183E206300A3B1FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F218829183E206300A3B1FB /* InfoPlist.strings */; };
 		7F21882D183E206300A3B1FB /* NSRunLoopPerformBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F21882C183E206300A3B1FB /* NSRunLoopPerformBlockTests.m */; };
+		7F218838183E209900A3B1FB /* NSRunLoop+PerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F218837183E209900A3B1FB /* NSRunLoop+PerformBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				7F218816183E206300A3B1FB /* NSRunLoopPerformBlock.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +43,14 @@
 		7F21880D183E206300A3B1FB /* libNSRunLoopPerformBlock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSRunLoopPerformBlock.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F218810183E206300A3B1FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F218814183E206300A3B1FB /* NSRunLoopPerformBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSRunLoopPerformBlock-Prefix.pch"; sourceTree = "<group>"; };
-		7F218815183E206300A3B1FB /* NSRunLoopPerformBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSRunLoopPerformBlock.h; sourceTree = "<group>"; };
-		7F218817183E206300A3B1FB /* NSRunLoopPerformBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRunLoopPerformBlock.m; sourceTree = "<group>"; };
 		7F21881D183E206300A3B1FB /* NSRunLoopPerformBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSRunLoopPerformBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F21881E183E206300A3B1FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7F218821183E206300A3B1FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7F218828183E206300A3B1FB /* NSRunLoopPerformBlockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSRunLoopPerformBlockTests-Info.plist"; sourceTree = "<group>"; };
 		7F21882A183E206300A3B1FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F21882C183E206300A3B1FB /* NSRunLoopPerformBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRunLoopPerformBlockTests.m; sourceTree = "<group>"; };
+		7F218836183E209900A3B1FB /* NSRunLoop+PerformBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+PerformBlock.h"; sourceTree = "<group>"; };
+		7F218837183E209900A3B1FB /* NSRunLoop+PerformBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRunLoop+PerformBlock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +108,8 @@
 		7F218812183E206300A3B1FB /* NSRunLoopPerformBlock */ = {
 			isa = PBXGroup;
 			children = (
-				7F218815183E206300A3B1FB /* NSRunLoopPerformBlock.h */,
-				7F218817183E206300A3B1FB /* NSRunLoopPerformBlock.m */,
+				7F218836183E209900A3B1FB /* NSRunLoop+PerformBlock.h */,
+				7F218837183E209900A3B1FB /* NSRunLoop+PerformBlock.m */,
 				7F218813183E206300A3B1FB /* Supporting Files */,
 			);
 			path = NSRunLoopPerformBlock;
@@ -224,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F218818183E206300A3B1FB /* NSRunLoopPerformBlock.m in Sources */,
+				7F218838183E209900A3B1FB /* NSRunLoop+PerformBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +366,10 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "NSRunLoopPerformBlockTests/NSRunLoopPerformBlockTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -385,6 +387,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSRunLoopPerformBlock/NSRunLoopPerformBlock-Prefix.pch";
 				INFOPLIST_FILE = "NSRunLoopPerformBlockTests/NSRunLoopPerformBlockTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
