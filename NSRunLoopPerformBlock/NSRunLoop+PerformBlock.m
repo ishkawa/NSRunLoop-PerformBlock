@@ -19,7 +19,6 @@
     block(&finish);
 
     while (!finish && [[NSDate date] timeIntervalSinceDate:startedDate] < timeoutInterval) {
-        NSLog(@"%lf", [[NSDate date] timeIntervalSinceDate:startedDate]);
         @autoreleasepool {
             [self runUntilDate:[NSDate dateWithTimeIntervalSinceNow:.1]];
         }
