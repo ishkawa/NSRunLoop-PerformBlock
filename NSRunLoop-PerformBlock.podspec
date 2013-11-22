@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ishkawa/NSRunLoop-PerformBlock.git", :tag => "0.0.1" }
   s.platform     = :ios, '4.3'
   s.requires_arc = true
-  s.source_files = 'NSRunLoop-PerformBlock/**/*.{h,m}'
+  s.source_files = 'NSRunLoopPerformBlock/**/*.{h,m}'
   s.license      = {
     :type => 'MIT',
     :text => <<-LICENSE
