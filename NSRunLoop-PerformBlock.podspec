@@ -5,7 +5,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/ishkawa/NSRunLoop-PerformBlock"
   s.author       = { "Yosuke Ishikawa" => "y@ishkawa.org" }
   s.source       = { :git => "https://github.com/ishkawa/NSRunLoop-PerformBlock.git", :tag => "0.0.2" }
-  s.platform     = :ios, '4.3'
+  s.ios.deployment_target = '4.3'
+  s.osx.deployment_target = '10.6'
   s.requires_arc = true
   s.source_files = 'NSRunLoopPerformBlock/**/*.{h,m}'
   s.license      = {
