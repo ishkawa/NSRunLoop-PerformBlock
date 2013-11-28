@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07C0E0F01846F7FF0025E6A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F21881E183E206300A3B1FB /* XCTest.framework */; };
+		07C0E0F41846F7FF0025E6A9 /* NSRunLoopPerformBlock-Mac.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C0E0DE1846F7FF0025E6A9 /* NSRunLoopPerformBlock-Mac.dylib */; };
+		07C0E1031846F82A0025E6A9 /* NSRunLoop+PerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F218837183E209900A3B1FB /* NSRunLoop+PerformBlock.m */; };
+		07C0E1041846F83B0025E6A9 /* NSRunLoopPerformBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F21882C183E206300A3B1FB /* NSRunLoopPerformBlockTests.m */; };
 		7F218811183E206300A3B1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F218810183E206300A3B1FB /* Foundation.framework */; };
 		7F21881F183E206300A3B1FB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F21881E183E206300A3B1FB /* XCTest.framework */; };
 		7F218820183E206300A3B1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F218810183E206300A3B1FB /* Foundation.framework */; };
-		7F218822183E206300A3B1FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F218821183E206300A3B1FB /* UIKit.framework */; };
 		7F218825183E206300A3B1FB /* libNSRunLoopPerformBlock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F21880D183E206300A3B1FB /* libNSRunLoopPerformBlock.a */; };
 		7F21882B183E206300A3B1FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F218829183E206300A3B1FB /* InfoPlist.strings */; };
 		7F21882D183E206300A3B1FB /* NSRunLoopPerformBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F21882C183E206300A3B1FB /* NSRunLoopPerformBlockTests.m */; };
@@ -18,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		07C0E0F21846F7FF0025E6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F218805183E206300A3B1FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C0E0DD1846F7FF0025E6A9;
+			remoteInfo = "NSRunLoopPerformBlock-Mac";
+		};
 		7F218823183E206300A3B1FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7F218805183E206300A3B1FB /* Project object */;
@@ -40,12 +50,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07C0E0DE1846F7FF0025E6A9 /* NSRunLoopPerformBlock-Mac.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "NSRunLoopPerformBlock-Mac.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C0E0E21846F7FF0025E6A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07C0E0E31846F7FF0025E6A9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07C0E0E41846F7FF0025E6A9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		07C0E0EF1846F7FF0025E6A9 /* NSRunLoopPerformBlock-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSRunLoopPerformBlock-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F21880D183E206300A3B1FB /* libNSRunLoopPerformBlock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSRunLoopPerformBlock.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F218810183E206300A3B1FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F218814183E206300A3B1FB /* NSRunLoopPerformBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSRunLoopPerformBlock-Prefix.pch"; sourceTree = "<group>"; };
 		7F21881D183E206300A3B1FB /* NSRunLoopPerformBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSRunLoopPerformBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F21881E183E206300A3B1FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7F218821183E206300A3B1FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7F218828183E206300A3B1FB /* NSRunLoopPerformBlockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSRunLoopPerformBlockTests-Info.plist"; sourceTree = "<group>"; };
 		7F21882A183E206300A3B1FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F21882C183E206300A3B1FB /* NSRunLoopPerformBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRunLoopPerformBlockTests.m; sourceTree = "<group>"; };
@@ -54,6 +68,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		07C0E0DB1846F7FF0025E6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C0E0EC1846F7FF0025E6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0E0F41846F7FF0025E6A9 /* NSRunLoopPerformBlock-Mac.dylib in Frameworks */,
+				07C0E0F01846F7FF0025E6A9 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F21880A183E206300A3B1FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,7 +97,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F21881F183E206300A3B1FB /* XCTest.framework in Frameworks */,
-				7F218822183E206300A3B1FB /* UIKit.framework in Frameworks */,
 				7F218825183E206300A3B1FB /* libNSRunLoopPerformBlock.a in Frameworks */,
 				7F218820183E206300A3B1FB /* Foundation.framework in Frameworks */,
 			);
@@ -76,6 +105,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07C0E0E11846F7FF0025E6A9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07C0E0E21846F7FF0025E6A9 /* Foundation.framework */,
+				07C0E0E31846F7FF0025E6A9 /* CoreData.framework */,
+				07C0E0E41846F7FF0025E6A9 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
 		7F218804183E206300A3B1FB = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +130,8 @@
 			children = (
 				7F21880D183E206300A3B1FB /* libNSRunLoopPerformBlock.a */,
 				7F21881D183E206300A3B1FB /* NSRunLoopPerformBlockTests.xctest */,
+				07C0E0DE1846F7FF0025E6A9 /* NSRunLoopPerformBlock-Mac.dylib */,
+				07C0E0EF1846F7FF0025E6A9 /* NSRunLoopPerformBlock-MacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,7 +141,7 @@
 			children = (
 				7F218810183E206300A3B1FB /* Foundation.framework */,
 				7F21881E183E206300A3B1FB /* XCTest.framework */,
-				7F218821183E206300A3B1FB /* UIKit.framework */,
+				07C0E0E11846F7FF0025E6A9 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,7 +184,52 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		07C0E0DC1846F7FF0025E6A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		07C0E0DD1846F7FF0025E6A9 /* NSRunLoopPerformBlock-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C0E0FD1846F7FF0025E6A9 /* Build configuration list for PBXNativeTarget "NSRunLoopPerformBlock-Mac" */;
+			buildPhases = (
+				07C0E0DA1846F7FF0025E6A9 /* Sources */,
+				07C0E0DB1846F7FF0025E6A9 /* Frameworks */,
+				07C0E0DC1846F7FF0025E6A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSRunLoopPerformBlock-Mac";
+			productName = "NSRunLoopPerformBlock-Mac";
+			productReference = 07C0E0DE1846F7FF0025E6A9 /* NSRunLoopPerformBlock-Mac.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		07C0E0EE1846F7FF0025E6A9 /* NSRunLoopPerformBlock-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C0E1001846F7FF0025E6A9 /* Build configuration list for PBXNativeTarget "NSRunLoopPerformBlock-MacTests" */;
+			buildPhases = (
+				07C0E0EB1846F7FF0025E6A9 /* Sources */,
+				07C0E0EC1846F7FF0025E6A9 /* Frameworks */,
+				07C0E0ED1846F7FF0025E6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C0E0F31846F7FF0025E6A9 /* PBXTargetDependency */,
+			);
+			name = "NSRunLoopPerformBlock-MacTests";
+			productName = "NSRunLoopPerformBlock-MacTests";
+			productReference = 07C0E0EF1846F7FF0025E6A9 /* NSRunLoopPerformBlock-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7F21880C183E206300A3B1FB /* NSRunLoopPerformBlock */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F218830183E206300A3B1FB /* Build configuration list for PBXNativeTarget "NSRunLoopPerformBlock" */;
@@ -187,6 +273,14 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Yosuke Ishikawa";
+				TargetAttributes = {
+					07C0E0EE1846F7FF0025E6A9 = {
+						TestTargetID = 07C0E0DD1846F7FF0025E6A9;
+					};
+					7F21881C183E206300A3B1FB = {
+						TestTargetID = 07C0E0DD1846F7FF0025E6A9;
+					};
+				};
 			};
 			buildConfigurationList = 7F218808183E206300A3B1FB /* Build configuration list for PBXProject "NSRunLoopPerformBlock" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -202,11 +296,20 @@
 			targets = (
 				7F21880C183E206300A3B1FB /* NSRunLoopPerformBlock */,
 				7F21881C183E206300A3B1FB /* NSRunLoopPerformBlockTests */,
+				07C0E0DD1846F7FF0025E6A9 /* NSRunLoopPerformBlock-Mac */,
+				07C0E0EE1846F7FF0025E6A9 /* NSRunLoopPerformBlock-MacTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		07C0E0ED1846F7FF0025E6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F21881B183E206300A3B1FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,6 +321,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07C0E0DA1846F7FF0025E6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0E1031846F82A0025E6A9 /* NSRunLoop+PerformBlock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C0E0EB1846F7FF0025E6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C0E1041846F83B0025E6A9 /* NSRunLoopPerformBlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F218809183E206300A3B1FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -237,6 +356,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		07C0E0F31846F7FF0025E6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C0E0DD1846F7FF0025E6A9 /* NSRunLoopPerformBlock-Mac */;
+			targetProxy = 07C0E0F21846F7FF0025E6A9 /* PBXContainerItemProxy */;
+		};
 		7F218824183E206300A3B1FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7F21880C183E206300A3B1FB /* NSRunLoopPerformBlock */;
@@ -256,6 +380,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		07C0E0FE1846F7FF0025E6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07C0E0FF1846F7FF0025E6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07C0E1011846F7FF0025E6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSRunLoopPerformBlock-Mac.dylib";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSRunLoopPerformBlockTests/NSRunLoopPerformBlockTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		07C0E1021846F7FF0025E6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSRunLoopPerformBlock-Mac.dylib";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "NSRunLoopPerformBlockTests/NSRunLoopPerformBlockTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		7F21882E183E206300A3B1FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -354,6 +566,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSRunLoopPerformBlock-Mac.dylib";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -371,6 +584,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -379,6 +593,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSRunLoopPerformBlock-Mac.dylib";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -392,6 +607,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -399,6 +615,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		07C0E0FD1846F7FF0025E6A9 /* Build configuration list for PBXNativeTarget "NSRunLoopPerformBlock-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C0E0FE1846F7FF0025E6A9 /* Debug */,
+				07C0E0FF1846F7FF0025E6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C0E1001846F7FF0025E6A9 /* Build configuration list for PBXNativeTarget "NSRunLoopPerformBlock-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C0E1011846F7FF0025E6A9 /* Debug */,
+				07C0E1021846F7FF0025E6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7F218808183E206300A3B1FB /* Build configuration list for PBXProject "NSRunLoopPerformBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -415,6 +649,7 @@
 				7F218832183E206300A3B1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F218833183E206300A3B1FB /* Build configuration list for PBXNativeTarget "NSRunLoopPerformBlockTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +658,7 @@
 				7F218835183E206300A3B1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
