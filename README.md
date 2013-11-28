@@ -5,6 +5,7 @@ extension of NSRunLoop for waiting.
 ## Requirements
 
 - iOS 4.3 or later
+- Mac OS 10.6 (Snow Leopard) or later
 - ARC
 
 ## Usage
