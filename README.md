@@ -1,10 +1,11 @@
-# NSRunLoop+PerformBlock 
+# NSRunLoop+PerformBlock [![Build Status](https://travis-ci.org/ishkawa/NSRunLoop-PerformBlock.png?branch=master)](https://travis-ci.org/ishkawa/NSRunLoop-PerformBlock)
 
 extension of NSRunLoop for waiting.
 
 ## Requirements
 
 - iOS 4.3 or later
+- Mac OS 10.6 (Snow Leopard) or later
 - ARC
 
 ## Usage
