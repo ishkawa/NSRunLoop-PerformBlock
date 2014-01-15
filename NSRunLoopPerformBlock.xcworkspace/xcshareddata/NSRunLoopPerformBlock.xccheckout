@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>651D661E-8CBB-4D6E-8E7D-4EC312610B84</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NSRunLoopPerformBlock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>30D8EC56-DB12-42CE-921F-EFA6D00ED2F2</key>
+		<string>file:///Users/ishkawa/Library/Caches/CocoaPods/GitHub/614c08fd7a451cd2e0f1ddb5f2cd2e8e6deb025f/</string>
+		<key>CB9CC9C3-1935-4CA1-82DE-FDB34369B25E</key>
+		<string>ssh://github.com/ishkawa/NSRunLoop-PerformBlock.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NSRunLoopPerformBlock.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>30D8EC56-DB12-42CE-921F-EFA6D00ED2F2</key>
+		<string>../Pods/ISGcovFlusher</string>
+		<key>CB9CC9C3-1935-4CA1-82DE-FDB34369B25E</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ishkawa/NSRunLoop-PerformBlock.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB9CC9C3-1935-4CA1-82DE-FDB34369B25E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>30D8EC56-DB12-42CE-921F-EFA6D00ED2F2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ISGcovFlusher</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB9CC9C3-1935-4CA1-82DE-FDB34369B25E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NSRunLoop-PerformBlock</string>
+		</dict>
+	</array>
+</dict>
+</plist>
