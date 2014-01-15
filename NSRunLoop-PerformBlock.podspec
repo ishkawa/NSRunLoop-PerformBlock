@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "NSRunLoop-PerformBlock"
-  s.version      = "0.0.2"
+  s.version      = "0.1.0"
   s.summary      = "extension of NSRunLoop for waiting."
   s.homepage     = "https://github.com/ishkawa/NSRunLoop-PerformBlock"
   s.author       = { "Yosuke Ishikawa" => "y@ishkawa.org" }
-  s.source       = { :git => "https://github.com/ishkawa/NSRunLoop-PerformBlock.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/ishkawa/NSRunLoop-PerformBlock.git", :tag => "0.1.0" }
   s.ios.deployment_target = '4.3'
   s.osx.deployment_target = '10.6'
   s.requires_arc = true
