@@ -1,4 +1,4 @@
-# NSRunLoop+PerformBlock [![Build Status](https://travis-ci.org/ishkawa/NSRunLoop-PerformBlock.png?branch=master)](https://travis-ci.org/ishkawa/NSRunLoop-PerformBlock)
+# NSRunLoop+PerformBlock [![Build Status](https://travis-ci.org/ishkawa/NSRunLoop-PerformBlock.png?branch=master)](https://travis-ci.org/ishkawa/NSRunLoop-PerformBlock) [![Coverage Status](https://coveralls.io/repos/ishkawa/NSRunLoop-PerformBlock/badge.png?branch=master)](https://coveralls.io/r/ishkawa/NSRunLoop-PerformBlock?branch=master)
 
 extension of NSRunLoop for waiting.
 
