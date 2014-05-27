@@ -1,6 +1,6 @@
 # NSRunLoop+PerformBlock [![Build Status](https://travis-ci.org/ishkawa/NSRunLoop-PerformBlock.png?branch=master)](https://travis-ci.org/ishkawa/NSRunLoop-PerformBlock) [![Coverage Status](https://coveralls.io/repos/ishkawa/NSRunLoop-PerformBlock/badge.png?branch=master)](https://coveralls.io/r/ishkawa/NSRunLoop-PerformBlock?branch=master)
 
-category on NSRunLoop that adds performBlockAntWait: method.
+category on NSRunLoop that adds performBlockAndWait: method.
 
 ## Requirements
 
