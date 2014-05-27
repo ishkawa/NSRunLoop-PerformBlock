@@ -14,6 +14,7 @@ category on NSRunLoop that adds performBlockAntWait: method.
 - (void)testPerformBlockAndWait
 {
     // 1
+    __block BOOL flag = NO;
 
     [[NSRunLoop currentRunLoop] performBlockAndWait:^(BOOL *finish) {
         double delayInSeconds = 2.0;
@@ -21,11 +22,13 @@ category on NSRunLoop that adds performBlockAntWait: method.
         dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
         dispatch_after(popTime, queue, ^(void){
             // 2
+            flag = YES;
             *finish = YES;
         });
     }];
 
     // 3
+    XCTAssertTrue(flag);
 }
 ```
 
