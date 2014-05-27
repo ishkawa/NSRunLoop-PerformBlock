@@ -17,5 +17,5 @@ test:
 		GCC_GENERATE_TEST_COVERAGE_FILES=YES
 
 coveralls:
-	coveralls -e NSRunLoopPerformBlockTests -e Pods
+	coveralls -e NSRunLoopPerformBlockTests -e Pods -E ".*\.h"
 
