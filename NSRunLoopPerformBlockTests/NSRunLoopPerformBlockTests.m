@@ -21,7 +21,7 @@
         });
     }];
 
-    XCTAssertTrue(flag, @"flag was not set.");
+    XCTAssertTrue(flag);
 }
 
 - (void)testTimeout
@@ -38,13 +38,17 @@
         });
     }];
 
-    XCTAssertFalse(flag, @"flag should not set.");
+    XCTAssertFalse(flag);
 }
 
 - (void)testInvalidTimeoutInterval
 {
-    XCTAssertThrows([[NSRunLoop currentRunLoop] performBlockAndWait:^(BOOL *finish) {} timeoutInterval:-10.f],
-                    @"should throw invalid argument exception if timeout interval is negative value.");
+    XCTAssertThrows([[NSRunLoop currentRunLoop] performBlockAndWait:^(BOOL *finish) {} timeoutInterval:-1.0]);
+}
+
+- (void)testInvalidArgumentException
+{
+    XCTAssertThrows([[NSRunLoop currentRunLoop] performBlockAndWait:nil timeoutInterval:1.0]);
 }
 
 @end

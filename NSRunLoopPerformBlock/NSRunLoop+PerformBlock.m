@@ -9,7 +9,7 @@
 
 - (void)performBlockAndWait:(void (^)(BOOL *))block timeoutInterval:(NSTimeInterval)timeoutInterval
 {
-    if (timeoutInterval < 0.0) {
+    if (!block || timeoutInterval < 0.0) {
         [NSException raise:NSInvalidArgumentException format:@"%lf is invalid for timeout interval", timeoutInterval];
     }
 
