@@ -41,7 +41,7 @@ Add files under `NSRunLoopPerformBlock/` to your Xcode project.
 If you use CocoaPods, you can install NSRunLoop-PerformBlock by inserting config below.
 
 ```
-pod 'NSRunLoop+PerformBlock', :git => 'https://github.com/ishkawa/NSRunLoop-PerformBlock.git'
+pod 'NSRunLoop+PerformBlock'
 ```
 
 ## License
