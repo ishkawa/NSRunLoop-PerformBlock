@@ -1,5 +1,7 @@
 #import "NSRunLoop+PerformBlock.h"
 
+NSString *const NSRunloopTimeoutException = @"NSRunloopTimeoutException";
+
 @implementation NSRunLoop (PerformBlock)
 
 - (void)performBlockAndWait:(void (^)(BOOL *))block
@@ -22,6 +24,10 @@
         @autoreleasepool {
             [self runUntilDate:[NSDate dateWithTimeIntervalSinceNow:.1]];
         }
+    }
+    
+    if (!finish) {
+        [NSException raise:NSRunloopTimeoutException format:@"execution of block timed out in performBlockAndWait:."];
     }
 }
 
